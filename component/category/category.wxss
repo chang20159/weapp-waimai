@@ -2,14 +2,14 @@
   display: inline-block;
   width: 25%;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 20rpx;
 }
 
 .category-icon{
-  width: 35px;
-  height: 32px;
+  width: 70rpx;
+  height: 64rpx;
 }
 
 .category-text{
-  font-size: 13px;
+  font-size: 26rpx;
 }

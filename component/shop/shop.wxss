@@ -1,13 +1,13 @@
 .shop-list-item{
-  border-bottom: 1px solid #eee;
+  border-bottom: 2rpx solid #eee;
   overflow: hidden;
-  padding-bottom: 10px;
+  padding-bottom: 20rpx;
 }
 
 .shop-info{
-  padding: 10px 15px 10px 15px;
+  padding: 20rpx 30rpx 20rpx 30rpx;
   width: 100%;
-  height: 90px;
+  height: 180rpx;
   box-sizing: border-box;
 }
 
@@ -15,29 +15,29 @@
     width:25%;
     height:100%;
     float:left;
-    border-radius:2px;
+    border-radius:4rpx;
     box-sizing:border-box;
 }
 
 .shop-info-detail{
     float:left;
-    font-size:13px;
+    font-size:26rpx;
     width:75%;
     height:100%;
     box-sizing:border-box;
-    padding-left: 10px
+    padding-left: 20rpx
 
 }
 
 .shop-info-detail-name{
-  font-size: 16px;
+  font-size: 32rpx;
   white-space: nowrap;
   overflow:scroll;
 }
 
 .shop-info-detail-middle{
-    height: 35px;
-    line-height: 35px;
+    height: 70rpx;
+    line-height: 70rpx;
 }
 
 .shop-info-detail-other{
@@ -61,27 +61,27 @@
    top: 0;
    left: 0;
    display: inline-block;
-   height: 12px;
+   height: 24rpx;
    background: url("../../images/star.png") no-repeat;
-   background-size: 70px 12px;
+   background-size: 140rpx 24rpx;
 }
 .star-gray{
   position: relative;
   display: inline-block;
-  width: 70px;
-  height: 12px;
+  width: 140rpx;
+  height: 24rpx;
   background: url("../../images/star-gray.png") no-repeat;
-  background-size: 70px 12px;
-  margin-right: 5px;
+  background-size: 140rpx 24rpx;
+  margin-right: 10rpx;
 }
 
 .shop-info-detail-startingFee{
-  margin-right: 10px;
+  margin-right: 20rpx;
 }
 
 .shop-activity{
     width: 100%;
-    font-size: 12px;
+    font-size: 24rpx;
     color: #999;
     position: relative;
     overflow: hidden;
@@ -90,16 +90,16 @@
 .shop-activity-list{
     float: right;
     width: 70%; 
-    border-top: 1px dotted #ccc;   
+    border-top: 2rpx dotted #ccc;   
 }
 
 .shop-activity-list-hide{
     overflow:hidden;
-    max-height: 50px;
+    max-height: 90rpx;
 }
 
 .shop-activity-item{
-    padding-top: 5px; 
+    padding-top: 10rpx; 
     position: relative;
     width: 70%;
     white-space: nowrap;
@@ -109,22 +109,22 @@
 
 .shop-activity-control{
     position: absolute;
-    top: 6px;
-    right: 15px;
+    top: 12rpx;
+    right: 30rpx;
 }
 
 .shop-activity-icon{
     position: relative;
-    top: 3px;
-    width: 15px;
-    height: 15px;
-    padding-right: 3px;
+    top: 4rpx;
+    width: 30rpx;
+    height: 30rpx;
+    padding-right: 6rpx;
 }
 
 .shop-activity-arrow{
-    width: 16px;
-    height: 16px;
+    width: 32rpx;
+    height: 32rpx;
     position: relative;
-    top: 3px;
+    top: 6rpx;
 }
 

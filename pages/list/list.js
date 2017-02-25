@@ -5,7 +5,7 @@ Page({
   data: {
     show : {}
   },
-  
+
   onLoad: function () {
     console.log('onLoad');
   },
@@ -35,8 +35,8 @@ Page({
        },
        fail: function(res) {
          wx.showToast({
-            title: '网络错误',
-            icon: 'warn',
+            title: '网络请求失败，刷新重试一下吧',
+            icon: 'loading',
             duration: 2000
           })
        },

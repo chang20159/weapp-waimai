@@ -2,7 +2,6 @@
 <import src="../../component/category/category.wxml" />
 
 <view class="container">
-
    <!--广告轮播区-->
    <swiper class="banner" 
    indicator-dots="{{indicatorDots}}"  autoplay="{{autoplay}}" 
@@ -54,6 +53,5 @@
       <template is="shop-item" data="{{item:item,activityIconMap:activityIconMap,showAll:show[item.shopId]}}"/>     
   </view>
 </view>
-
 
 <!--品牌优选-->
