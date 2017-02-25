@@ -1,0 +1,130 @@
+.shop-list-item{
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+.shop-info{
+  padding: 10px 15px 10px 15px;
+  width: 100%;
+  height: 90px;
+  box-sizing: border-box;
+}
+
+.shop-info-img{
+    width:25%;
+    height:100%;
+    float:left;
+    border-radius:2px;
+    box-sizing:border-box;
+}
+
+.shop-info-detail{
+    float:left;
+    font-size:13px;
+    width:75%;
+    height:100%;
+    box-sizing:border-box;
+    padding-left: 10px
+
+}
+
+.shop-info-detail-name{
+  font-size: 16px;
+  white-space: nowrap;
+  overflow:scroll;
+}
+
+.shop-info-detail-middle{
+    height: 35px;
+    line-height: 35px;
+}
+
+.shop-info-detail-other{
+    color: #555;
+}
+
+.shop-info-detail-sales{
+    color: #555;
+}
+
+.shop-info-detail-other-left{
+    float: left;
+}
+
+.shop-info-detail-other-right{
+    float: right;
+}
+
+.star{
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: inline-block;
+   height: 12px;
+   background: url("../../images/star.png") no-repeat;
+   background-size: 70px 12px;
+}
+.star-gray{
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 12px;
+  background: url("../../images/star-gray.png") no-repeat;
+  background-size: 70px 12px;
+  margin-right: 5px;
+}
+
+.shop-info-detail-startingFee{
+  margin-right: 10px;
+}
+
+.shop-activity{
+    width: 100%;
+    font-size: 12px;
+    color: #999;
+    position: relative;
+    overflow: hidden;
+}
+
+.shop-activity-list{
+    float: right;
+    width: 70%; 
+    border-top: 1px dotted #ccc;   
+}
+
+.shop-activity-list-hide{
+    overflow:hidden;
+    max-height: 50px;
+}
+
+.shop-activity-item{
+    padding-top: 5px; 
+    position: relative;
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.shop-activity-control{
+    position: absolute;
+    top: 6px;
+    right: 15px;
+}
+
+.shop-activity-icon{
+    position: relative;
+    top: 3px;
+    width: 15px;
+    height: 15px;
+    padding-right: 3px;
+}
+
+.shop-activity-arrow{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+}
+
