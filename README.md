@@ -1,3 +1,3 @@
 ### 效果
 
-![](./images/wx_waimai.jpg)
+![](/images/wx_waimai.jpg)
